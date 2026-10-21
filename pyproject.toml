@@ -1,0 +1,24 @@
+[project]
+name = "shellquest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mcherrera", email = "mcherrera911@gmail.com" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+shellquest = "shellquest:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.71",
+]
