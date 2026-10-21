@@ -20,5 +20,6 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "python-dotenv>=1.2.4",
     "zensical>=0.0.71",
 ]
